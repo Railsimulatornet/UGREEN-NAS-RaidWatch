@@ -1,5 +1,5 @@
 # RaidWatch (UGREEN NAS)
-
+![RaidWatch](Screens/RaidWatch.png)
 RaidWatch ist ein leichtgewichtiges Bash-Skript für UGREEN NAS (UGOS Pro), das den Storage-Status überwacht und bei Problemen oder Änderungen einen Outlook-freundlichen Report per E-Mail sendet.
 
 ## Features
