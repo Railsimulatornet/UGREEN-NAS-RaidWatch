@@ -33,7 +33,7 @@ raidwatch/
   raidwatch.env
 Screens/
   (Screenshots)
-RAIDWatch_Handbuch_Manual_DE-EN_v1.01.pdf
+RAIDWatch_Handbuch_Manual_DE-EN_v1.2.pdf
 ```
 
 ## Voraussetzungen
@@ -78,8 +78,8 @@ Alle Einstellungen stehen in `raidwatch/raidwatch.env` (SMTP, Empfänger, Checks
 
 ## Dokumentation
 
-- Handbuch (PDF): `RAIDWatch_Handbuch_Manual_DE-EN_v1.01.pdf`
+- Handbuch (PDF): `RAIDWatch_Handbuch_Manual_DE-EN_v1.2.pdf`
 
 ## Version
 
-- v1.20
+- v1.2
