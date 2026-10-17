@@ -70,3 +70,6 @@ jobs:
                       checked += 1
           print(f"Parsed {checked} Python files/blocks without executing them.")
           PYCODE
+
+      - name: Run isolated regression tests
+        run: python3 -m unittest discover -s tests -v

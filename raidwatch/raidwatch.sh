@@ -1724,7 +1724,7 @@ main_once() {
       return 0
     else
       log "$(msg MAIL_SEND_FAILED)"
-      save_state "$hash" "$problem" "${LAST_ALERT_EPOCH:-0}"
+      # Keep the last delivered state so failed recovery/change mails are retried.
       return 1
     fi
   else
