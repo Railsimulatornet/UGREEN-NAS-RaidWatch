@@ -1,4 +1,7 @@
 # UGREEN NAS RaidWatch 
+
+[![Quality](https://github.com/Railsimulatornet/UGREEN-NAS-RaidWatch/actions/workflows/quality.yml/badge.svg?branch=main)](https://github.com/Railsimulatornet/UGREEN-NAS-RaidWatch/actions/workflows/quality.yml)
+
 ![RaidWatch](Screens/RaidWatch.png)
 RaidWatch ist ein leichtgewichtiges Bash-Skript für UGREEN NAS (UGOS Pro), das den Storage-Status überwacht und bei Problemen oder Änderungen einen Outlook-freundlichen Report per E-Mail sendet.
 
@@ -45,11 +48,11 @@ RAIDWatch_Handbuch_Manual_DE-EN_v1.2.pdf
 
 ## Installation (Quickstart)
 
-1) Ordner auf das NAS kopieren, z.B.:
+1) Den Inhalt des Ordners `raidwatch/` auf das NAS kopieren, z.B. nach:
 `/volumeX/docker/raidwatch/`
 
-2) Konfiguration anpassen:
-`raidwatch/raidwatch.env`
+2) Konfiguration im Zielordner anpassen:
+`/volumeX/docker/raidwatch/raidwatch.env`
 
 3) Testmail senden:
 ```bash
@@ -82,4 +85,4 @@ Alle Einstellungen stehen in `raidwatch/raidwatch.env` (SMTP, Empfänger, Checks
 
 ## Version
 
-- v1.2
+- v1.2.1
