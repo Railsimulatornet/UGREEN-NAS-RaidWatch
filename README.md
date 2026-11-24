@@ -82,6 +82,10 @@ Für einen geplanten Aufruf über Cron verwendest du `--once`. Nutze entweder so
 
 Beende einen laufenden Loop beziehungsweise pausiere den geplanten Aufruf. Sichere Skript und Konfiguration, ersetze `raidwatch.sh` aus dem neuen Paket und vergleiche die ENV-Vorlage mit deiner bestehenden `raidwatch.env`. Behalte eigene Werte und Statusdateien. Prüfe anschließend Testmail und Einzellauf, bevor du die Überwachung wieder startest.
 
+### Wartung im Repository
+
+Änderungen werden über einen Pull Request nach `main` übernommen. Vor dem Zusammenführen müssen `validate`, `Analyze (actions)` und `Analyze (python)` erfolgreich sein; eine zusätzliche Freigabe durch eine zweite Person ist nicht erforderlich. Ein zusammengeführter Pull Request veröffentlicht kein Release und aktualisiert keine bestehende NAS-Installation.
+
 ### Screenshots
 
 | Alarm / DEGRADED | Recovery / Rebuild |
@@ -181,6 +185,10 @@ Use `--once` for scheduled cron runs. Choose either scheduled one-time runs or t
 ### Updating
 
 Stop a running loop or pause the scheduled command. Back up the script and configuration, replace `raidwatch.sh` from the new package and compare the ENV template with your existing `raidwatch.env`. Keep your own settings and state files. Check the test email and one-time run before restarting monitoring.
+
+### Repository maintenance
+
+Changes are merged into `main` through a pull request. The `validate`, `Analyze (actions)` and `Analyze (python)` checks must pass before merging; approval from a second person is not required. Merging a pull request does not publish a release or update an existing NAS installation.
 
 ### Screenshots
 
